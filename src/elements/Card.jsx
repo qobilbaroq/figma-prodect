@@ -3,7 +3,7 @@ import { CiHeart } from "react-icons/ci";
 import defaultimg from "../assets/product.jpg";   
 
 const Card = (prompt) => {
-    const {category = "men", title = "product title" , price = "price" , imgproduct = defaultimg} = prompt;
+    const {category = "men", title = "product title" , price = "price" , imgproduct = defaultimg , formpage = "#"} = prompt;
   return (
     <div className="flex flex-col items-center bg-slate-100 rounded-lg shadow-md p-4 w-[350px] gap-5 h-[570px]">
       <div className="flex justify-between w-full mb-2">
@@ -24,8 +24,9 @@ const Card = (prompt) => {
             <p>S, M, L, XL</p>
         </div>
       </div>
-
-        <button className="p-2 w-full border-2 border-black hover:bg-yellow-200 hover:border-yellow-200 rounded-full">$ {price}</button>
+        <a href={formpage}>
+        <button className="p-2 w-[200px] border-2 border-black hover:bg-yellow-200 hover:border-yellow-200 rounded-full">$ {price}</button>
+        </a>
     </div>
   );
 };

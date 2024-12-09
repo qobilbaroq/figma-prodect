@@ -1,20 +1,24 @@
 import { useState } from 'react'
-import Header from './components/Header'
-import Content from './layout/Contents'
-import Footer from './components/Footer'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Dasboard from './pages/Dasboard'
+import Login from './pages/Login'
+import Menu from './pages/Menu'
+
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Header/>
-      <Content/>
-      
-      <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Dasboard/>} pa />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/menu' element={<Menu/>} />
+      </Routes>
+    </Router>
   )
+    
 }
 
 export default App
