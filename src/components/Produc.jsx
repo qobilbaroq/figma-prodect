@@ -29,13 +29,13 @@ const Produc = () => {
       </div>
       <div className="flex gap-3 flex-wrap justify-center mt-5">
         <Card formpage = "/menu"/>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card formpage = "/menu"/>
+        <Card formpage = "/menu"/>
+        <Card formpage = "/menu"/>
+        <Card formpage = "/menu"/>
+        <Card formpage = "/menu"/>
+        <Card formpage = "/menu"/>
+        <Card formpage = "/menu"/>
       </div>
     </div>
   );
