@@ -28,14 +28,15 @@ const Produc = () => {
         </button>
       </div>
       <div className="flex gap-3 flex-wrap justify-center mt-5">
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
-        <Card formpage = "/menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        <Card formpage = "menu"/>
+        
       </div>
     </div>
   );

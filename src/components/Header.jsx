@@ -35,7 +35,7 @@ const Header = () => {
           CONTACT
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-500 group-hover:w-full transition-all duration-300"></span>
         </a>
-        <a href="/Login" className="relative group ">
+        <a href="Login"  className="relative group ">
           LOGIN
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-500 group-hover:w-full transition-all duration-300"></span>
         </a>
